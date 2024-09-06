@@ -1,180 +1,48 @@
-/* General Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif; /* Work Sans for overall text */
-}
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-    background-image: url('https://i.ibb.co/5xjvLcG/Picsart-24-09-06-17-00-59-947.jpg'); /* Background image */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
 
-/* Game Container */
-.game-container {
-    position: relative;
-    max-width: 450px;
-    width: 100%;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
-    backdrop-filter: blur(30px) brightness(4.1); /* Increased blur effect to 12px for 30% */
-    border-radius: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for a glassy effect */
-    
-}
+    <!-- Fonts for the XO symbols and overall site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 
-/* Glassy Grain Effect */
-.game-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(''); /* Replace with path to grainy texture image */
-    opacity: 0.3; /* Adjust opacity to suit the effect */
-    pointer-events: none; /* Ensure it does not interfere with clicks */
-    border-radius: 20px; /* Match the container's border-radius */
-}
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-/* Heading */
-h1 {
-    font-size: 2.5rem;
-    color: #fff; /* White color for better contrast on dark background */
-    margin-bottom: 20px;
-}
+<body>
+    <div class="game-container">
+        <h1>Tic Tac Toe</h1>
+        <div id="game-board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div id="message"></div>
 
-/* Game Board */
-#game-board {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    margin-bottom: 10px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(8px); /* Glass-like effect */
-    border-radius: 12px;
-    padding: 23px;
-}
+        <!-- Updated score display -->
+        <p id="score">X Wins: <span id="playerXWins">0</span> | O Wins: <span id="playerOWins">0</span> | Draws: <span id="drawsCount">0</span></p>
 
-/* Grid Cell */
-.cell {
-    width: 110px;
-    height: 110px;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4.5rem;
-    font-family: 'Indie Flower', cursive; /* Indie Flower for XO */
-    font-weight: bold;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s, color 0.2s;
-    animation: fadeIn 0.15s ease-in-out;
-}
+        <!-- Reset Button -->
+        <button id="resetBtn">Reset Game</button>
 
-.cell:hover {
-    background: rgba(0, 0, 0, 0.85);
-    transform: scale(1.05);
-}
+        <!-- White Fade Overlay -->
+        <div id="fadeOverlay" class="fade-overlay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
 
-/* XO Animation */
-@keyframes fadeIn {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-/* Message Display */
-#message {
-    font-size: 1.5rem;
-    color: #fff; /* White color for better contrast */
-    margin-bottom: 20px;
-}
-
-/* Reset Button */
-#resetBtn {
-    padding: 12px 25px;
-    background-color: #0066cc;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#resetBtn:hover {
-    background-color: #004d99;
-}
-
-#resetBtn:focus {
-    outline: 2px solid #004d99; /* Added focus style for accessibility */
-}
-
-/* Difficulty Selector */
-#difficulty-container {
-    margin-top: 20px;
-    font-size: 1rem;
-    color: #fff; /* White color for better contrast */
-}
-
-#difficulty-container label {
-    margin-right: 10px;
-}
-
-#difficulty-container select {
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-/* Score Display */
-#score {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #fff; /* White color for better contrast */
-    margin-bottom: 20px;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    .cell {
-        width: 80px;
-        height: 80px;
-        font-size: 2rem;
-    }
-
-    .game-container {
-        max-width: 320px;
-    }
-}
-
-.fade-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    opacity: 0;
-    transition: opacity 1s ease;
-}
+</html>
