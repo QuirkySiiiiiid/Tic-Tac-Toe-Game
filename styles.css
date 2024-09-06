@@ -30,7 +30,6 @@ body {
     text-align: center;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for a glassy effect */
-    
 }
 
 /* Glassy Grain Effect */
@@ -58,24 +57,22 @@ h1 {
 #game-board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
     margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px); /* Glass-like effect */
     border-radius: 12px;
-    padding: 23px;
+    padding: 10px;
 }
 
 /* Grid Cell */
 .cell {
-    width: 110px;
-    height: 110px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-family: 'Indie Flower', cursive; /* Indie Flower for XO */
     font-weight: bold;
     color: #fff;
@@ -160,11 +157,33 @@ h1 {
     .cell {
         width: 80px;
         height: 80px;
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    #game-board {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        padding: 5px;
     }
 
     .game-container {
         max-width: 320px;
+    }
+
+    #message {
+        font-size: 1.2rem;
+    }
+
+    #resetBtn {
+        font-size: 0.9rem;
+    }
+
+    #difficulty-container select {
+        font-size: 0.9rem;
+    }
+
+    #score {
+        font-size: 1rem;
     }
 }
 
