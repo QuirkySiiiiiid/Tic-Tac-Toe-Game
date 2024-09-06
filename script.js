@@ -17,7 +17,7 @@ cells.forEach(cell => {
 function handleCellClick(e) {
     const cell = e.target;
     const cellIndex = Array.from(cells).indexOf(cell);
-    
+
     if (board[cellIndex] === '' && isGameActive) {
         board[cellIndex] = currentPlayer;
         cell.textContent = currentPlayer;
