@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="game-container">
         <h1>Tic-Tac-Toe</h1>
-        
-        <!-- Score Display -->
+
         <div id="score">
             Player X: <span id="playerXScore">0</span><br>
             Player O: <span id="playerOScore">0</span><br>
             Draws: <span id="draws">0</span>
         </div>
 
-        <!-- Game Board -->
         <div id="game-board">
             <div class="cell" id="cell-0" data-cell></div>
             <div class="cell" id="cell-1" data-cell></div>
@@ -30,13 +28,10 @@
             <div class="cell" id="cell-8" data-cell></div>
         </div>
 
-        <!-- Message Display -->
         <div id="message"></div>
 
-        <!-- Reset Button -->
         <button id="resetBtn">Reset Game</button>
 
-        <!-- Difficulty Selector -->
         <div id="difficulty-container">
             <label for="difficulty">Choose Difficulty:</label>
             <select id="difficulty">
@@ -47,10 +42,8 @@
         </div>
     </div>
 
-    <!-- Fade Overlay for Reset Animation -->
     <div class="fade-overlay"></div>
 
-    <!-- Link to JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
