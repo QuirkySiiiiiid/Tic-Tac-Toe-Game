@@ -79,6 +79,12 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s, color 0.2s;
     animation: fadeIn 0.15s ease-in-out;
+    touch-action: manipulation; /* Optimize touch interaction */
+}
+
+.cell:active {
+    background: rgba(0, 0, 0, 0.85); /* Darker background on touch */
+    transform: scale(0.95); /* Slight scale down on touch */
 }
 
 .cell:hover {
@@ -115,6 +121,7 @@ h1 {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
+    touch-action: manipulation; /* Optimize touch interaction */
 }
 
 #resetBtn:hover {
