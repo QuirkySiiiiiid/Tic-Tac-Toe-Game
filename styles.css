@@ -79,7 +79,7 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s, color 0.2s;
     animation: fadeIn 0.15s ease-in-out;
-    touch-action: manipulation; /* Optimize touch interaction */
+    outline: none; /* Remove default focus outline */
 }
 
 .cell:active {
@@ -90,6 +90,10 @@ h1 {
 .cell:hover {
     background: rgba(0, 0, 0, 0.85);
     transform: scale(1.05);
+}
+
+.cell:focus {
+    outline: 2px solid #004d99; /* Custom focus outline */
 }
 
 /* XO Animation */
@@ -149,6 +153,10 @@ h1 {
     border: 1px solid #ccc;
     font-size: 1rem;
     cursor: pointer;
+}
+
+#difficulty-container select:focus {
+    outline: 2px solid #004d99;
 }
 
 /* Score Display */
