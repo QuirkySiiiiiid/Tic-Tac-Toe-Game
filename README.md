@@ -1,8 +1,4 @@
-Based on the HTML and CSS you provided, here’s an updated and detailed `README.md` file for your GitHub repository. This README includes sections for installation, usage, and the specific features of your Tic-Tac-Toe game.
-
----
-
-# Tic-Tac-Toe Game
+## Tic-Tac-Toe Game
 
 ## Overview
 
