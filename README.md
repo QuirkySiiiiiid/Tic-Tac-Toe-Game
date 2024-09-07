@@ -66,5 +66,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions or feedback, you can reach out to me at [Instagram](www.instagram.com/quirky.siiiiiid)
 
 ---
-
-Feel free to adjust the content, especially the contact information and license details, based on your preferences. If there are specific instructions or additional features not covered here, you can add those details as well!
+[![](https://visitcount.itsvg.in/api?id=QuirkySiiiiiid/Tic-Tac-Toe-Game&icon=0&color=0)](https://visitcount.itsvg.in)
