@@ -58,12 +58,12 @@ h1 {
 #game-board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 14px;
     margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px); /* Glass-like effect */
     border-radius: 12px;
-    padding: 12px;
+    padding: 17px;
 }
 
 /* Grid Cell */
