@@ -1,3 +1,13 @@
+/* 
+    Copyright (c) [year] QuirkySiiiiiid
+    All rights reserved.
+
+    This file is part of the Tic-Tac-Toe project.
+    Unauthorized use, modification, or distribution of this file is prohibited.
+    Please keep this copyright notice intact.
+*/
+
+
 const gameBoard = document.querySelectorAll('.cell');
 const message = document.getElementById('message');
 const resetBtn = document.getElementById('resetBtn');
