@@ -1,10 +1,7 @@
 /* 
     Copyright (c) [year] QuirkySiiiiiid
     All rights reserved.
-
-    This file is part of the Tic-Tac-Toe project.
-    Unauthorized use, modification, or distribution of this file is prohibited.
-    Please keep this copyright notice intact.
+    Do not remove any of my Credits.... QuirkySiiiiiid    
 */
 
 
