@@ -1,4 +1,4 @@
-## Tic-Tac-Toe Game
+#Tic-Tac-Toe Game
 
 ## Overview
 
@@ -6,7 +6,7 @@ Tic-Tac-Toe is a classic game where two players compete to align three of their 
 
 ## Live Demo
 
-You can play the game online here: [Tic-Tac-Toe Game](https://quirkysiiiiiid.github.io/Tic-Tac-Toe-Game/). Visit this link to experience the game in action!
+<a href="https://quirkysiiiiiid.github.io/Tic-Tac-Toe-Game/" target="_blank">Tic-Tac-Toe Game</a>.
 
 ## Features
 
