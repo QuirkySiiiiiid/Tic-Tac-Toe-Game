@@ -16,7 +16,6 @@ Tic-Tac-Toe is a classic game where two players compete to align three of their 
 
 ## Features
 
-- **Two Player Mode**: Play against another person on the same device.
 - **Difficulty Levels**: Choose from Easy, Medium, and Hard difficulty settings.
 - **Score Tracking**: Displays wins for X, wins for O, and draws.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
