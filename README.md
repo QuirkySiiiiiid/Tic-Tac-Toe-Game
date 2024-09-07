@@ -6,7 +6,7 @@ Tic-Tac-Toe is a classic game where two players compete to align three of their 
 
 ## Live Demo
 
-<a href="https://quirkysiiiiiid.github.io/Tic-Tac-Toe-Game/" target="_blank">Tic-Tac-Toe Game</a>.
+<a href="https://quirkysiiiiiid.github.io/Tic-Tac-Toe-Game/" target="_blank">Tic-Tac-Toe Game</a>
 
 ## Features
 
