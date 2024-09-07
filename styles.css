@@ -63,7 +63,7 @@ h1 {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px); /* Glass-like effect */
     border-radius: 12px;
-    padding: 23px;
+    padding: 12px;
 }
 
 /* Grid Cell */
@@ -156,10 +156,10 @@ h1 {
 }
 
 /* Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 6000px) {
     .cell {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
         font-size: 2rem;
     }
 
