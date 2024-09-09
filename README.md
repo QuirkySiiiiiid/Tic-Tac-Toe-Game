@@ -1,4 +1,6 @@
-**_Tic-Tac-Toe Game_** #<h4><i><b>Give ⭐ if you're Cloning or Forking this repo!</b></i></h4>
+# _**Tic-Tac-Toe Game**_
+<h4><i>Give ⭐ if you're Cloning or Forking this repo!</i></h4>
+
 
 
 # 💻 Made With:
