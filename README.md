@@ -1,4 +1,4 @@
-# _**Tic-Tac-Toe Game**_                                                                                   [![](https://visitcount.itsvg.in/api?id=QuirkySiiiiiid&icon=0&color=0)](https://visitcount.itsvg.in)
+# _**Tic-Tac-Toe Game**_  
 
 <h2><i><b>Give ⭐ if you're Cloning or Forking this repo!</b></i></h2>
 
