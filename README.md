@@ -10,9 +10,10 @@
 [![](https://visitcount.itsvg.in/api?id=QuirkySiiiiiid&icon=0&color=0)](https://visitcount.itsvg.in)
 
 
-#Tic-Tac-Toe Game
+# _**Tic-Tac-Toe Game**_
 
-##Give ⭐ if you're Cloning or forking is repo
+<h2><i><b>Give ⭐ if you're Cloning or Forking this repo!</b></i></h2>
+
 
 ## Overview
 
@@ -79,23 +80,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions or feedback, you can reach out to me at [Instagram](www.instagram.com/quirky.siiiiiid)
 
 -------------------------
-import requests
-
-OWNER = "QuirkySiiiiiid"
-REPO = "Tic-Tac-Toe-Game"
-TOKEN = "your_github_token"
-
-url = f"https://api.github.com/repos/{OWNER}/{REPO}/traffic/clones"
-headers = {"Authorization": f"token {TOKEN}"}
-response = requests.get(url, headers=headers)
-
-if response.status_code == 200:
-    data = response.json()
-    total_clones = data['count']
-    unique_clones = data['uniques']
-
-    # Print or write this data to README.md or another file
-    print(f"Total Clones: {total_clones}")
-    print(f"Unique Clones: {unique_clones}")
-else:
-    print(f"Failed to fetch clone data: {response.status_code}")
