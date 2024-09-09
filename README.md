@@ -1,12 +1,17 @@
-#Tic-Tac-Toe Game
-
-##Give ⭐ if you're Cloning or forking is repo
-
 # 💻 Made With:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+## Repo Stats
+
+![GitHub Repo stars](https://img.shields.io/github/stars/QuirkySiiiiiid/Tic-Tac-Toe-Game?style=social)
+![GitHub forks](https://img.shields.io/github/forks/QuirkySiiiiiid/Tic-Tac-Toe-Game?style=social)
+
+
+#Tic-Tac-Toe Game
+
+##Give ⭐ if you're Cloning or forking is repo
 
 ## Overview
 
