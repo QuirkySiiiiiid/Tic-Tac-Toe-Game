@@ -13,7 +13,6 @@
 ![GitHub forks](https://img.shields.io/github/forks/QuirkySiiiiiid/Tic-Tac-Toe-Game?&style=style=for-the-badge) <br> <br>
 [![](https://visitcount.itsvg.in/api?id=QuirkySiiiiiid&icon=0&color=0)](https://visitcount.itsvg.in)
 
-[![Host on GitHub Pages](https://img.shields.io/badge/Host%20on-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://docs.github.com/en/pages/getting-started-with-github-pages)
 
 
 ## Overview
