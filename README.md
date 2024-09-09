@@ -1,5 +1,5 @@
-# **Tic-Tac-Toe Game**  
-_<h4><i><b>Give ⭐ if you're Cloning or Forking this repo!</b></i></h4>_
+# **_Tic-Tac-Toe Game_**  <h4><i><b>Give ⭐ if you're Cloning or Forking this repo!</b></i></h4>
+
 
 # 💻 Made With:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
