@@ -13,6 +13,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/QuirkySiiiiiid/Tic-Tac-Toe-Game?&style=style=for-the-badge) <br> <br>
 [![](https://visitcount.itsvg.in/api?id=QuirkySiiiiiid&icon=0&color=0)](https://visitcount.itsvg.in)
 
+[![Host on GitHub Pages](https://img.shields.io/badge/Host%20on-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://docs.github.com/en/pages/getting-started-with-github-pages)
 
 
 ## Overview
@@ -63,7 +64,6 @@ The game uses a custom design to enhance the visual appeal:
 - **Responsive Design**: Adjusts the layout and font sizes based on the screen size for a better user experience on different devices.
 
 ## Contributing
-
 Contributions are welcome! If you have ideas for improvements or find any bugs, please follow these steps to contribute:
 
 1. Fork the repository.
